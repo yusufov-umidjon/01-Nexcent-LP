@@ -46,7 +46,7 @@ body{
     padding: 0;
     font-family: var(--main-text-font);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     overflow-x: hidden;
 }
 
@@ -82,13 +82,83 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* MAIN TITLE */
-.main-title{
-
+.main-headline-1{
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 600;
+}
+.main-headline-2{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.main-headline-3{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.main-headline-4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
 }
 
+.main-title{
+    font-size: 36px;
+    line-height: 24px;
+    color: var(--neutral-d-grey);
+    font-weight: 600;
+}
+
+.main-heading{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--neutral-d-grey);
+}
+.main-big-text{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.main-medium-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutral-grey);
+    font-weight: 400;
+}
+.main-text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--neutral-grey);
+}
+.main-small-text{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+
+}
 /* BUTTONS */
 /* SIMPLE BUTTON */
 .button{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    color: var(--neutral-white);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.button-sign-up{
+    padding: 10px 20px;
+}
+.button-main{
+    padding: 14px 32px;
+}
+.button-arrow{
+    padding: 14px 32px;
 
 }
 
