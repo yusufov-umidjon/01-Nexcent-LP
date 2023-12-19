@@ -200,6 +200,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* HEADER SECTION */
+.header{
+    background-color: var(--neutral-silver);
+}
 .header__container {
     max-width: 1260px;
 }
@@ -336,6 +339,9 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* HERO SECTION */
+.hero-section{
+    background-color: var(--neutral-silver);
+}
 .hero-section__inner {
     display: flex;
     align-items: center;
