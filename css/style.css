@@ -5,11 +5,18 @@
 :root{
     --main-text-font: 'Inter', sans-serif;
     --other-text-font: 'Montserrat', sans-serif;
-    --main-accent-color: #4452FE;
-    --main-text-color: #000;
+    --primary-color: #4CAF4F;
+    --secondary-color: #263238;
+    --info-color: #2194f3;
+    --neutral-black: #263238;
+    --neutral-d-grey: #4d4d4d;
+    --neutral-grey: #717171;
+    --neutral-l-grey: #89939e;
+    --neutral-grey-blue: #abbed1;
+    --neutral-silver: #f5f7fa;
+    --neutral-white: #fff;
+    --main-text-color: #717171;
     --body-color: #fff;
-    --black-color: #000;
-    --white-color: #fff;
 }
 
 /* HTML */
@@ -96,7 +103,7 @@ h1,h2,h3,h4,h5,h6{
 /* CONTAINER */
 .container{
     width: 100%;
-    max-width: 1160px;
+    max-width: 1212px;
     padding: 0 30px;
     margin: 0 auto;
 }
