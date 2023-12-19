@@ -3,8 +3,8 @@
 
 /* ROOT */
 :root{
-    --main-text-font: '';
-    --other-text-font: '';
+    --main-text-font: 'Inter', sans-serif;
+    --other-text-font: 'Montserrat', sans-serif;
     --main-accent-color: #4452FE;
     --main-text-color: #000;
     --body-color: #fff;
