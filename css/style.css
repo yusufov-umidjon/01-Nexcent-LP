@@ -364,3 +364,37 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
 }
 
+/* CLIENTS SECTION */
+.clients {
+    padding: 40px 0;
+}
+
+.clients__title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.clients__text {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.clients__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clients__item {
+    display: flex;
+}
+
+.clients__link {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
