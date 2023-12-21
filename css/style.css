@@ -535,3 +535,32 @@ h1,h2,h3,h4,h5,h6{
 .achievements__item-info-text {
     color: var(--neutral-grey);
 }
+
+/* CALENDAR SECTION */
+.calendar {
+    margin-bottom: 48px;
+}
+
+.calendar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calendar__info {
+    padding-right: 60px;
+}
+
+.calendar__headline {
+    width: 100%;
+    max-width: 601px;
+    color: var(--neutral-d-grey);
+    margin-bottom: 16px;
+}
+
+.calendar__text {
+    width: 100%;
+    max-width: 601px;
+    color: var(--neutral-grey);
+    margin-bottom: 32px;
+}
