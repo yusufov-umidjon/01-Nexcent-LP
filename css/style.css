@@ -372,11 +372,13 @@ h1,h2,h3,h4,h5,h6{
 .clients__title {
     text-align: center;
     margin-bottom: 8px;
+    color: var(--neutral-d-grey);
 }
 
 .clients__text {
     text-align: center;
     margin-bottom: 16px;
+    color: var(--neutral-grey);
 }
 
 .clients__list {
@@ -397,4 +399,52 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* COMMUNITY SECTION */
+.community {
+    margin-bottom: 42px;
+}
+
+.community__title {
+    text-align: center;
+    margin-bottom: 8px;
+    color: var(--neutral-d-grey);
+}
+
+.community__text {
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--neutral-grey);
+}
+
+.community__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community__item {
+    width: 100%;
+    max-width: 299px;
+    text-align: center;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+
+.community__item-img {
+    margin-bottom: 16px;
+}
+
+.community__item-headling {
+    color: var(--neutral-d-grey);
+    margin-bottom: 8px;
+}
+
+.community__item-text {
+    width: 100%;
+    max-width: 251px;
+    margin: 0 auto;
 }
