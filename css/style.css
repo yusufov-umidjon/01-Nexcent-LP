@@ -477,3 +477,65 @@ h1,h2,h3,h4,h5,h6{
     color: var(--neutral-grey);
     margin-bottom: 32px;
 }
+
+/* ACHIEVEMENTS SECTION */
+.achievements {
+    background-color: var(--neutral-silver);
+    margin-bottom: 48px;
+    padding: 64px 0;
+}
+.container {
+}
+.achievements__container {
+}
+.achievements__inner {
+    display: flex;
+    align-items: center;
+}
+.achievements__info {
+    width: 100%;
+    max-width: 540px;
+}
+.achievements__headline {
+    color: var(--neutral-d-grey);
+    margin-bottom: 8px;
+}
+.main-headline-2 {
+}
+.primary-color {
+}
+.achievements__text {
+    color: #18191F;
+}
+.main-medium-text {
+}
+.achievements__list {
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+}
+.achievements__item {
+    width: 100%;
+    max-width: 255px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.achievements__item:nth-child(odd){
+    margin-right: 30px;
+}
+.achievements__item-img {
+    margin-right: 16px;
+}
+.achievements__item-info {
+}
+.achievements__item-info-headline {
+    color: var(--neutral-d-grey);
+}
+.main-headline-3 {
+}
+.achievements__item-info-text {
+    color: var(--neutral-grey);
+}
