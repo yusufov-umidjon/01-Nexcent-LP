@@ -448,3 +448,32 @@ h1,h2,h3,h4,h5,h6{
     max-width: 251px;
     margin: 0 auto;
 }
+
+/* UNLOCK SECTION */
+.unlock {
+    margin-bottom: 48px;
+}
+
+.unlock__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.unlock__info {
+    padding-right: 60px;
+}
+
+.unlock__headline {
+    width: 100%;
+    max-width: 601px;
+    color: var(--neutral-d-grey);
+    margin-bottom: 16px;
+}
+
+.unlock__text {
+    width: 100%;
+    max-width: 601px;
+    color: var(--neutral-grey);
+    margin-bottom: 32px;
+}
